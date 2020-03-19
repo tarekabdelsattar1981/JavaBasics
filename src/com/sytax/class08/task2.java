@@ -1,0 +1,30 @@
+package com.sytax.class08;
+
+import java.util.Scanner;
+
+public class task2 {
+public static void main(String[]args) {
+	
+ Scanner scan;
+ String a="Yes";
+ scan=new Scanner(System.in);
+ 
+ for(int i=1; i<=10; i++) {
+	System.out.println("Do you want to apply for a credit card?");
+	a=scan.nextLine();
+	if(a.equals("Yes")) {
+		System.out.println("Stop asking");
+		break;
+	}
+	 
+ }
+ 
+ 
+	
+	
+	
+	
+	
+	
+}
+}
